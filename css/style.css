@@ -364,5 +364,44 @@ main.episodios {
         line-height: 22px;
         font-size: 16px;
         line-height: 24px; } }
+.invitadas h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin: 54px 16px 14px 16px; }
+.invitadas .galeria {
+  display: inline-flex;
+  flex-wrap: wrap; }
+  .invitadas .galeria img {
+    width: 320px;
+    height: 243px; }
+
+@media screen and (min-width: 768px) {
+  .invitadas {
+    position: relative;
+    margin: 245px 0 0 0; }
+    .invitadas h1 {
+      display: flex;
+      align-items: center;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 400;
+      font-size: 36px;
+      color: #060A24;
+      letter-spacing: 0;
+      line-height: 42px;
+      font-size: 48px;
+      margin: 54px 36px 14px 200px;
+      width: 481px;
+      height: 62px; }
+    .invitadas .galeria {
+      display: grid;
+      display: inline-flex;
+      flex-wrap: wrap; }
+      .invitadas .galeria img {
+        width: 480px;
+        height: 364px; } }
 
 /*# sourceMappingURL=style.css.map */
