@@ -19,6 +19,14 @@
     line-height: 42px;
 }
 
+@mixin estilo-subtitulo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+
 @mixin estilo-texto{
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;
@@ -48,5 +56,14 @@
     // History section
     @import 'historia';
 
-    // History section
+    // Invitadas section
     @import 'invitadas';
+
+    // Topics section
+    @import 'topics';
+
+    // Novedades section
+    @import 'novedades';
+
+    // Footer section
+    @import 'footer';
